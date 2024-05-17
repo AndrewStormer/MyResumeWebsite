@@ -28,8 +28,12 @@ code {
   color: #ebecf4;
 }
 
-.headerContainer > a:hover {
+a:hover {
   color: gold;
+}
+
+a {
+  color: #ebecf4;
 }
 
 .headerUnderline {
@@ -54,7 +58,7 @@ code {
 
 .aboutContainer > img {
   float: left;
-  padding: 0px 5px 5px 3px;
+  padding: 0px 5px 5px 5px;
   margin: 3px;
 }
 
@@ -106,4 +110,15 @@ code {
   width: fit-content;
   background-color: #202128;
   border-radius: 5px;
+}
+
+.courseLink:hover{
+  text-decoration: underline;
+  color: gold;
+}
+
+.courseLink{
+  text-decoration: none;
+  color: #ebecf4;
+  opacity: 80%;
 }

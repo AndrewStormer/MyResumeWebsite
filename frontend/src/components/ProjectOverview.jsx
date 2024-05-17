@@ -4,7 +4,7 @@ export default function ProjectOverview() {
   return (
     <div className='projectOverviewContainer'>
         <div>
-            <h2>My Projects</h2>
+            <h2>Technical Projects:</h2>
             This is a showcase of some of the projects I have built for school,
             along with projects that I have made in my own time! Some projects may
             not provide source code, as they are solutions to assignments for some
@@ -12,7 +12,15 @@ export default function ProjectOverview() {
             from posting them online.
         </div>
         <div className='skillsContainer'>
-            <header>Python Library</header>
+            <header>Portfolio Website</header>
+            I developed this website  using the MERN stack! It contains Mongoose documents
+            for my relevant courses and my technical projects, allowing for easy insertion and deletion.
+            
+        </div>
+        <div className='skillsContainer'>
+            <header>
+                <a href='/project/Python_Library' >Python Library </a>
+            </header>
             A project that I developed in Python, using MySQL for the database. This application allows
             students to rent books, return books, and pay late fees that are automatically added to late
             returns. 

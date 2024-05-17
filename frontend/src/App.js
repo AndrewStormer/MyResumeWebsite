@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import Project from './components/Project'
 
 import Home from './pages/Home';
 
@@ -16,6 +17,11 @@ function App() {
         <Route exact path='/' element = {
             <>
               <Home />
+            </>
+          } />
+          <Route exact path='/project/:name' element = {
+            <>
+              <Project />
             </>
           } />
       </Routes>
